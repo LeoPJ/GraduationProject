@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	
+	<style type="text/css">
+		.div_body{
+			margin: 0 auto;
+			border: 1px solid black;
+			width: 1400px;
+			height: 600px;
+		}
+		.div1{
+			text-align: center;
+			background-color: white;
+			float: left;
+			width: 30%;
+			height: 100%;
+		}
+		.div2{
+			background-color: white;
+			float: left;
+			width: 70%;
+			height: 100%;
+		}
+		.select{
+			width: 60%;
+		}
+		.img{
+			width: 100%;
+			height: auto;
+		}
+		p{
+			margin-top: 25%;
+		}
+	</style>
+	<body>
+		<h1 align="center">在线课程视频观看行为可视化系统</h1>
+		<hr />
+		<div class="div_body">
+			
+			<div class="div1">
+				<p>选择课程</p>
+				<select class="select">
+				  <option value ="大唐兴衰">大唐兴衰</option>
+				  <option value ="大学计算机基础">大学计算机基础</option>
+				</select>
+				<br />
+				<p>选择学生</p>
+				<input />
+				<br />
+				<button onclick="butn1()">用户学习路径展示</button>
+			</div>
+			<div class="div2">
+				<div>
+                                         <iframe src="graph_les_miserables.html" frameborder="0" width="900" scrolling="No" height="500" leftmargin="0" topmargin="0"></iframe>					 
+					</div>
+
+			</div>
+		</div>
+		<script>
+			function butn1(){
+				var img = document.getElementById("img")
+				img.src="img/1.jpg";
+			}
+			function butn2(){
+				var img = document.getElementById("img")
+				img.src="img/graph_les_miserables.html";
+			}
+			function butn3(){
+				var img = document.getElementById("img")
+				img.src="img/3.jpg";
+			}
+			function butn4(){
+				var img = document.getElementById("img")
+				img.src="img/4.jpg";
+			}
+		</script>
+	</body>
+</html>

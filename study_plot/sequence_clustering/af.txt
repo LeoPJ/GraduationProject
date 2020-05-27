@@ -1,0 +1,2 @@
+AffinityPropagation(affinity='precomputed', convergence_iter=15, copy=True,
+                    damping=0.5, max_iter=200, preference=-5.4, verbose=False)
